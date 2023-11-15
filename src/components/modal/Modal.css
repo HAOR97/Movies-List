@@ -1,0 +1,41 @@
+ .modal-box{
+    background-color: #fff;
+    width: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 45px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-section{
+    width:100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+} 
+.buttons-section .add{
+    background-color: #E33967;
+    margin: 5px;
+    display: inline-block;
+    color: black;
+    border-radius: 45px;
+}
+.buttons-section .cancel{
+    color: black;
+    background-color: #D3D3D3;
+    margin: 5px;
+    margin-right: 0;
+    border-radius: 45px;
+}   
+.rating-switch-row{
+    display: flex;
+}
+.rating-switch{
+    display: flex;
+    flex-direction: column;
+} 

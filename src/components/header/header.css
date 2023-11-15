@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 80%;
+     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 10px;
+    margin: 1% auto;
+    border-bottom: 2px solid black;
+}
+h1{
+    color: black;
+    font-size: 60px;
+}
+  .add-section button {
+    
+    background:  #E33967;
+    font-size:larger;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+}   
